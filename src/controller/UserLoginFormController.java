@@ -18,7 +18,7 @@ public class UserLoginFormController {
       userName=txtUserName.getText();
       Stage stage = new Stage();
       stage.setScene(new Scene(FXMLLoader.load(UserLoginFormController.class.getResource("../view/ClientForm.fxml"))));
-      stage.centerOnScreen();
+      stage.close();
       stage.centerOnScreen();
       stage.show();
     }
