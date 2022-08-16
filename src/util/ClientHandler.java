@@ -35,7 +35,7 @@ public class ClientHandler extends Thread{
                 }
             }
         } catch (Exception e) {
-            e.printStackTrace();
+           // e.printStackTrace();
         }
         finally {
             try {
@@ -43,7 +43,7 @@ public class ClientHandler extends Thread{
                 writer.close();
                 socket.close();
             } catch (IOException e) {
-                e.printStackTrace();
+               // e.printStackTrace();
             }
         }
 
