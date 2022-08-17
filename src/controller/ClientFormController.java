@@ -70,7 +70,6 @@ public class ClientFormController extends Thread {
                 for (int i = 0; i < msgToAr.length - 1; i++) {
                     st += msgToAr[i + 1] + " ";
                 }
-//======================================================================
 
 
                 Text text = new Text(st);
@@ -138,7 +137,7 @@ public class ClientFormController extends Thread {
 
                     HBox hBox = new HBox(12); //12
 
-                    //=================================================
+                    
 
 
                     if (!cmd.equalsIgnoreCase(lblClientName.getText() + ":")) {
